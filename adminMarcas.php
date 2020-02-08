@@ -3,6 +3,7 @@
     require 'clases/Marca.php';
     $objMarca = new Marca;
     $marcas = $objMarca->listarMarcas();
+
     include 'includes/header.html';
     include 'includes/nav.php';
 ?>
